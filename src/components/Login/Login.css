@@ -1,0 +1,99 @@
+.form-container {
+    width: 500px;
+    height: 600px;
+    background: #FFFFFF;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    margin: 100px auto;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 35px;
+    color: #2A414F;
+}
+
+.form-container input[type=email] {
+    display: block;
+    height: 55px;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid #95A0A7;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+}
+
+.form-container label {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form-container input[type=email]:focus {
+    outline: none;
+}
+
+.form-container input[type=password]:focus {
+    outline: none;
+}
+.form-container input[type=text]:focus {
+    outline: none;
+}
+
+.form-container input[type=password] {
+    display: block;
+    height: 55px;
+    width: 400px;
+    font-size: 30px;
+    border: 1px solid #95A0A7;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+
+
+}
+.form-container input[type=text] {
+    display: block;
+    height: 55px;
+    width: 400px;
+    font-size: 30px;
+    border: 1px solid #95A0A7;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+
+
+}
+
+.form-container button {
+    background: rgba(255, 153, 0, 0.3);
+    border: none;
+    width: 400px;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.form-container button:hover {
+    background: rgba(255, 153, 0, 0.5);
+    cursor: pointer;
+}
+
+.form-container p {
+    text-align: center;
+}
+
+.form-container p a {
+    text-decoration: none;
+    color: #FF9900;
+}
