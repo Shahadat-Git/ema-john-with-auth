@@ -1,0 +1,11 @@
+.shop-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+/* .cart-container{
+    text-align: center
+    ;
+} */
